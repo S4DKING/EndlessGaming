@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'delight';
-    src: url(/fontes/Delight\ Candles\ .ttf) format('truetype');
+    src: url(Site/fontes/Delight\ Candles\ .ttf) format('truetype');
 }
 
 :root {
