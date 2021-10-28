@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'delight';
+    src: url(../fontes/Delight\ Candles\ .ttf) format('truetype');
+}
+
+:root {
+    --cor1: #FFA800;
+    --cor2: #E64F00;
+    --cor3: #FA0011;
+    --cor4: #BF0BE3;
+    --cor5: #320DFB;
+    --preto: rgb(15, 15, 15);
+
+    --delight: 'delight', san-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+header > h1 {
+    padding: 8px;
+    text-align: center;
+    font-weight: normal;
+    font-family: var(--delight);
+}
+
+header span {
+    color: var(--cor3);
+    font-family: var(--delight);
+}
+
+.divisão {
+    height: 3px;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+}
+
+nav {
+    background-color: var(--preto);
+    padding: 6px 3px;
+    box-shadow: 0px 3px 5px 0px black;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 8px;
+    color: white
+}
+
+nav  a:hover {
+    text-decoration: underline;
+}
+
+nav abbr {
+    text-decoration: none;
+}
